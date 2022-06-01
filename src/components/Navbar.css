@@ -1,6 +1,6 @@
 .header {
     position: fixed;
-    height: 70px;
+    height: 90px;
     width: 100%;
     top: 0;
     left: 0;
@@ -38,18 +38,10 @@
 
 .header .nav-item {
     position: relative;
-    left: 165%;
+    left: 90%;
     padding: 1rem;
     font-weight: 700;
-    font-size: medium;
-}
-
-.header .nav-item1 {
-    position: absolute;
-    left: 0;
-    padding: 1rem;
-    font-weight: 700;
-    font-size: medium;
+    font-size: large;
 }
 
 .header.active {
@@ -60,49 +52,6 @@
     color: lightgray;
 }
 
-.header.active .nav-item a:hover {
+.header .nav-item a:hover {
     color: black;
-}
-
-.header.active .nav-item1 {
-    color: black;
-    position: absolute;
-    left: 0;
-    padding: 1rem;
-    font-weight: 700;
-    font-size: medium;
-}
-
-.header .navbar svg {
-    color: white;
-    position: absolute;
-    right: 2.5%;
-    width: 20;
-    height: 20;
-}
-
-.header.active .navbar svg {
-    color: black;
-    position: absolute;
-    right: 2.5%;
-    width: 20;
-    height: 20;
-}
-
-.header .nav-menu svg {
-    color: white;
-    position: absolute;
-    top: 35%;
-    right: 0.5%;
-    width: 20;
-    height: 20;
-}
-
-.header.active .nav-menu svg {
-    color: black;
-    position: absolute;
-    top: 35%;
-    right: 0.5%;
-    width: 20;
-    height: 20;
 }

@@ -1,16 +1,22 @@
-import React from 'react';
-import Navbar from './components/Navbar.js';
-import Pagina from './components/Pagina.js'
+import React from 'react'
+import Navbar from './components/Nabvar.js'
+import Hero from './components/Hero.js'
+import About from './components/About.js'
+import Testimonials from './components/Testimonials.js'
+import Demo from './components/Demo.js'
+import Footer from './components/Footer.js'
 
+function App() {
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Testimonials />
+      <Demo />
+      <Footer />
+    </div>
+  );
+}
 
-export default function App() {
-    return (
-      <>
-        <Navbar />
-        <Pagina/>
-      </>
-    );
-  }
-
-
-
+export default App;

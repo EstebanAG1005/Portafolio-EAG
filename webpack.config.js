@@ -21,7 +21,7 @@ export default {
                 use: ["style-loader",'css-loader',],
             },
             {
-                test: /\.(png|jpg|gif|svg|mp3)$/,
+                test: /\.(png|jpg|gif|svg|mp3|jpeg)$/,
                 use: [{loader: 'file-loader'}]
             },
             {
