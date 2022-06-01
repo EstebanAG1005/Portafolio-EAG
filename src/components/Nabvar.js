@@ -38,7 +38,7 @@ const Navbar = () => {
                         <a href='#testimonials' onClick={closeMenu}>PROYECTOS</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo' onClick={closeMenu}>MAS SOBRE MI</a>
+                        <a href='#demo' onClick={closeMenu}>CONOCIMIENTOS</a>
                     </li>
                 </ul>
             </nav>
