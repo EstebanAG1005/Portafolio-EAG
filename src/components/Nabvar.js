@@ -24,8 +24,10 @@ const Navbar = () => {
     return (
         <div className={navbar ? 'header active' : 'header'}>
             <nav className='navbar'>
-                <ul className={click ? "nav-menu active" : "nav-menu"}>
-
+                <ul className={click ? "nav-menu active" : "nav-menu"}> 
+                    <li className='nav-item1'>
+                        <a href='/' onClick={closeMenu}>EAG</a>
+                    </li>
                     <li className='nav-item'>
                         <a href='/' onClick={closeMenu}>HOME</a>
                     </li>

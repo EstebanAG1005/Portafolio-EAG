@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Waiting+for+the+Sunrise&display=swap');
+
+
 .header {
     position: fixed;
     height: 90px;
@@ -38,10 +41,19 @@
 
 .header .nav-item {
     position: relative;
-    left: 90%;
+    left: 80%;
     padding: 1rem;
     font-weight: 700;
     font-size: large;
+}
+
+.header .nav-item1 {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
 }
 
 .header.active {
@@ -52,6 +64,6 @@
     color: lightgray;
 }
 
-.header .nav-item a:hover {
+.header.active .nav-item a:hover {
     color: black;
 }

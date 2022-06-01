@@ -1,14 +1,18 @@
 import React from 'react'
 import './Hero.css'
+import Video from '../../assets/Vid/Video.mp4'
 
 const Hero = () => {
     return (
         <div className='hero'>
+            <video autoPlay loop muted className="VideoFondo">
+                <source src={Video} type="video/mp4" />
+            </video>
             <div className='content'>
-                <p>Call us</p>
-                <p>1-800-123-4567</p>
-                <p>Because Money</p>
-                <p>Doesn't come with instructions</p>
+                <p>Contactame</p>
+                <p>esteban10052002@gmail.com</p>
+                <p>Esteban Aldana Guerra</p>
+                <p>Programador</p>
                 <button href='/' className='button'>Free Consultation</button>
             </div>
         </div>
