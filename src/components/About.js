@@ -10,9 +10,16 @@ const About = () => {
                 <div className='col-2'>
                     <h2>About</h2>
                     <span className='line'></span>
-                    <p>Intense is an International Financial Planning company with offices i n multiple jurisdictions over the world. Working with Intense gives me the ability to advise internat ional expatriates living in the middle east from where I live in USA.</p>
-                    <p>I am John Doe, a senior advisor for an independently owned financial planning company called Intense.</p>
-                    <button className='button'>Explore More</button>
+                    <p>Soy una persona dinámica, organizada
+                        y responsable, con buenas relaciones
+                        interpersonales.
+                        Al igual que he sido lider de grupos
+                        estudiantiles dentro de mi entorno y tengo
+                        la mejor disposición para la realización de
+                        mis labores
+                    </p>
+                    <p>Soy Esteban, Una persona a la cual le encanta desarrollar en web, al igual que aprender de tecnologías nuevas.  </p>
+                    <a className='button' href='#demo'>Conocer Mas</a>
                 </div>
             </div>
         </div>

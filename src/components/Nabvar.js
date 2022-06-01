@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import logo from '../../assets/Img/logo.png'
 
 import './Navbar.css'
 
@@ -35,7 +34,7 @@ const Navbar = () => {
                         <a href='#about' onClick={closeMenu}>ABOUT</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials' onClick={closeMenu}>PROYECTOS</a>
+                        <a href='#proyectos' onClick={closeMenu}>PROYECTOS</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#demo' onClick={closeMenu}>CONOCIMIENTOS</a>

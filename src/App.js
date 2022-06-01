@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Nabvar.js'
 import Hero from './components/Hero.js'
 import About from './components/About.js'
-import Testimonials from './components/Testimonials.js'
+import Proyectos from './components/Proyectos.js'
 import Demo from './components/Demo.js'
 import Footer from './components/Footer.js'
 
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Testimonials />
+      <Proyectos />
       <Demo />
       <Footer />
     </div>

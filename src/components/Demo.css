@@ -17,12 +17,12 @@
     flex-direction: column;
 }
 
-.demo .col-1 p:nth-child(1) {
+.demo .col-1 p:nth-child(2) {
     font-size: 1.8rem;
     font-style: italic;
 }
 
-.demo .col-1 p:nth-child(2) {
+.demo .col-1 p:nth-child(1) {
     font-size: 3rem;
     font-weight: 600;
     margin: .5rem 0;
@@ -51,14 +51,3 @@
         height: auto;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
