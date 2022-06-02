@@ -20,8 +20,9 @@ const Footer = () => {
                     </li>
                 </ul>
                 <div className='bottom'>
+                    <a className='EAG' href='/' >EAG</a>
                     <span className='line'></span>
-                    <p>2020 Execute, Inc. All rights reserved</p>
+                    <p>© 2022 Esteban Aldana Guerra • All right reserved</p>
                 </div>
             </div>
         </div>
