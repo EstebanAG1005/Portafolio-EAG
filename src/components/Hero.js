@@ -13,7 +13,7 @@ const Hero = () => {
                 <p>esteban10052002@gmail.com</p>
                 <p>Esteban Aldana Guerra</p>
                 <p>Programador</p>
-                <button href='/' className='button'>Free Consultation</button>
+            
             </div>
         </div>
     )

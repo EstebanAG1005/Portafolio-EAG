@@ -37,6 +37,12 @@
     margin-bottom: 1rem;
 }
 
+.Edu {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: .5rem 0;
+}
+
 .Conocimientos .col-2 p:nth-child(2) {
     font-size: 1.8rem;
     font-style: italic;
