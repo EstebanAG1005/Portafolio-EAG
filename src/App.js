@@ -3,7 +3,7 @@ import Navbar from './components/Nabvar.js'
 import Hero from './components/Hero.js'
 import About from './components/About.js'
 import Proyectos from './components/Proyectos.js'
-import Demo from './components/Demo.js'
+import Conocimientos from './components/Conocimientos.js'
 import Footer from './components/Footer.js'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <About />
       <Proyectos />
-      <Demo />
+      <Conocimientos />
       <Footer />
     </div>
   );

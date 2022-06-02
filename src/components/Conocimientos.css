@@ -1,0 +1,128 @@
+.Conocimientos {
+    margin: 5rem auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+.Conocimientos .container {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Conocimientos .col-1 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Conocimientos .col-1 svg {
+    position: relative;
+}
+
+.Conocimientos .col-1 p:nth-child(2) {
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.Conocimientos .col-1 p:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: .5rem 0;
+}
+
+.Conocimientos .col-1 p:nth-child(3) {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.Conocimientos .col-2 p:nth-child(2) {
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.Conocimientos .col-2 p:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: .5rem 0;
+}
+
+
+.Conocimientos .col-2 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.Github {
+    position: relative;
+    top: 1%;
+
+}
+
+.Java {
+    position: relative;
+    margin-top: -8%;
+    margin-left: 10%;
+}
+
+
+.Python {
+    position: relative;
+    margin-top: -9%;
+    margin-left: 20%;
+}
+
+
+.HTML {
+    position: relative;
+    margin-top: -9%;
+    margin-left: 32%;
+}
+
+.CSS {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin-top: -9.2%;
+    margin-left: 42%;
+}
+
+.JS {
+    position: relative;
+}
+
+.post {
+    position: relative;
+    margin-top: -8%;
+    margin-left: 10%;
+}
+
+.flask {
+    position: relative;
+    margin-top: -9%;
+    margin-left: 20%;
+}
+
+.React {
+    position: relative;
+    margin-top: -9%;
+    margin-left: 30%;
+}
+
+.bandera {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 940px) {
+    .Conocimientos .container {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+}
