@@ -36,8 +36,19 @@
     font-weight: 600;
 }
 
-.about button {
-    margin-top: 1rem;
+.about .button5 {
+    padding: 20px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 3%;
+    position: relative;
+    top: 30px;
 }
 
 @media screen and (max-width:940px) {
