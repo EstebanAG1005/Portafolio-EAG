@@ -1,8 +1,8 @@
 import React from 'react';
-import Memoria from '../../assets/Img/Memoria.png';
-import Ele from '../../assets/Img/eleva.png';
-import Calc from '../../assets/Img/Calculadora.png';
-import lab from '../../assets/Img/laber1.png';
+import Memoria from './../../assets/Img/Memoria.png';
+import Ele from './../../assets/Img/eleva.png';
+import Calc from './../../assets/Img/Calculadora.png';
+import lab from './../../assets/Img/laber1.png';
 import './Proyectos.css';
 
 function Proyectos() {
