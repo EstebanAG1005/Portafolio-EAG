@@ -7,6 +7,8 @@ import './Proyectos.css'
 
 const Proyectos = () => {
     return (
+        <div className='pro' id='pro'>
+            
         <div className='proyectos' id='proyectos'>
             <div className='container'>
                 <h2>Proyectos</h2>
@@ -41,6 +43,7 @@ const Proyectos = () => {
                 </div>
             </div>
         </div>
+    </div>
     )
 }
 

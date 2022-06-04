@@ -3,11 +3,13 @@ import './Conocimientos.css'
 import Guate from '../../assets/Img/Guate1.png'
 import USA from '../../assets/Img/USA.png'
 import Ale from '../../assets/Img/Alemania.png'
-import {Carousel} from 'react-bootstrap'
+
 
 
 const Conocimientos = () => {
     return (
+        <div className='cono' id='cono'>
+            
         <div className='Conocimientos' id='Conocimientos'>
             <div className='container'>
                 <div className='col-1'>
@@ -55,6 +57,7 @@ const Conocimientos = () => {
                     </div>
                 </div>
             </div>
+        </div>
     )
 }
 

@@ -28,6 +28,8 @@
 
 .about .col-2 p:first-of-type {
     margin: 2rem 0;
+    font-weight: 600;
+
 }
 
 .about .col-2 p:nth-child(4) {

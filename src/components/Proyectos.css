@@ -72,6 +72,12 @@
 
 }
 
+.pro {
+    margin: 5rem auto;
+    padding: 1rem;
+    width: 100%;
+}
+
 
 
 @media screen and (max-width: 940px) {

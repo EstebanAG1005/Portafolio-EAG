@@ -18,7 +18,7 @@ const About = () => {
                         la mejor disposición para la realización de
                         mis labores
                     </p>
-                    <p>Soy Esteban, Una persona a la cual le encanta desarrollar en web, al igual que aprender de tecnologías nuevas.  </p>
+                    <p>Me encanta desarrollar en web, al igual que aprender de tecnologías nuevas. Y los nuevos cambios de nuestro ambiente  </p>
                     <a className='button5' href='#Conocimientos'>Conocer Mas</a>
                 </div>
             </div>
