@@ -21,6 +21,5 @@ module.exports = {
     "react/jsx-filename-extension": [0],
     "max-len": ["error", {"code": 30000}],
     "import/extensions":[0],
-    'import/no-unresolved': [2, { ignore: ['.png$', '.webp$', '.jpg$'] }] 
   },
 };
