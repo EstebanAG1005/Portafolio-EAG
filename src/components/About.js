@@ -19,7 +19,7 @@ const About = () => {
                         mis labores
                     </p>
                     <p>Me encanta desarrollar en web, al igual que aprender de tecnologías nuevas. Y los nuevos cambios de nuestro ambiente  </p>
-                    <a className='button5' href='#Conocimientos'>Conocer Mas</a>
+                    <a className='button5' href='#cono'>Conocer Mas</a>
                 </div>
             </div>
         </div>
