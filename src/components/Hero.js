@@ -10,6 +10,7 @@ const Hero = () => {
             </video>
             <div className='content'>
                 <p>Contactame</p>
+                <p>+502 58258168</p>
                 <p>esteban10052002@gmail.com</p>
                 <p>Esteban Aldana Guerra</p>
                 <p>Programador</p>
