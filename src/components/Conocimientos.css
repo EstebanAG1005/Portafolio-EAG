@@ -19,6 +19,9 @@
 
 .Conocimientos .col-1 svg {
     position: relative;
+    top: 4%;
+    padding: auto;
+
 }
 
 .Conocimientos .col-1 p:nth-child(2) {
@@ -93,21 +96,21 @@
 .Java {
     position: relative;
     margin-top: -8%;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 
 .Python {
     position: relative;
     margin-top: -9%;
-    margin-left: 20%;
+    margin-left: 30%;
 }
 
 
 .HTML {
     position: relative;
     margin-top: -9%;
-    margin-left: 32%;
+    margin-left: 46%;
 }
 
 .CSS {
@@ -115,29 +118,30 @@
     height: 60px;
     width: 60px;
     margin-top: -9.2%;
-    margin-left: 42%;
+    margin-left: 60%;
 }
 
 .JS {
     position: relative;
+    margin-top: 10%;
 }
 
 .post {
     position: relative;
     margin-top: -8%;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .flask {
     position: relative;
     margin-top: -9%;
-    margin-left: 20%;
+    margin-left: 30%;
 }
 
 .React {
     position: relative;
     margin-top: -9%;
-    margin-left: 30%;
+    margin-left: 45%;
 }
 
 .bandera {
